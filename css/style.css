@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+.feedback-box {
+    width: 460px;
+    height: 491px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 2em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #FFFFFF;
+    display: grid;
+    gap: 1em;
+    padding: 2em 2em 3em 2em;
+}
+
+.feedback-close {
+    padding-left: 22em;
+}
+
+.feedback-close img {
+    opacity: 0.4;
+    padding-top: 1.2em;
+    width: 40px;
+    cursor: pointer;
+}
+
+.feedback-title p {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #000b5f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feedback-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.numbers-box {
+    display: grid;
+    border: 2px solid rgba(0, 0, 0, 0.212);
+    padding: 1.2em;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numbers-box p {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.clasificacion-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6em;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.check-box {
+    display: flex;
+    gap: 0.5em;
+    padding-right: 7em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.check-box input {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    opacity: 0.4;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.hr-section hr {
+    width: 350px;
+    opacity: 0.4;
+}
+
+.button-siguiente {
+    width: 350px;
+    height: 70px;
+    border: 2px solid rgba(0, 0, 0, 0.089);
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000b5f;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    gap: 4px;
+}
+
+.button-siguiente img {
+    opacity: 0.6;
+    width: 20px;
+    height: 22px;
+}
+
+.numbers-box:hover {
+    color: #FFFFFF;
+    background-color: #FF0099;
+    transform: scale(1.1);
+}
